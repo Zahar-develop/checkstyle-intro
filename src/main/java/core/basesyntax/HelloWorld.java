@@ -25,8 +25,9 @@ public class HelloWorld {
         }
         return result;
     }
+
         private void sayHello(String str) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file."
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file.  a"
         + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(str);
     }

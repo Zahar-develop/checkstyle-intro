@@ -1,7 +1,7 @@
-package core.basesyntax;
+package core.basesyntax.model;
 
-import core.basesyntax.Model.Cat;
-import core.basesyntax.Model.Dog;
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
@@ -29,7 +29,7 @@ public class HelloWorld {
 
     private void sayHello(String str) {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task."
-            + " Run mvn clean package");
+                + " Run mvn clean package");
         System.out.println(str);
     }
 

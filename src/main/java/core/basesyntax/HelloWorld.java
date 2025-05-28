@@ -1,11 +1,11 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
+import core.basesyntax.Model.Dog;
 import java.time.LocalDate;
 
-public class Hello_World
-{
+public class HelloWorld {
+
     private String a;
     private int variable;
     private int age;

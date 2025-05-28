@@ -29,7 +29,7 @@ public class HelloWorld {
 
     private void sayHello(String str) {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file."
-           + " Run mvn clean package and select `BUILD SUCCESS` message");
+           + " Run mvn clean package");
         System.out.println(str);
     }
 

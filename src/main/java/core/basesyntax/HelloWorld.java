@@ -21,25 +21,26 @@ public class HelloWorld {
 
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-             result = result + i + " ";
+                result = result + i + " ";
+            }
+            return result;
         }
-        return result;
-    }
 
-        private void sayHello(String str) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file.  a"
-        + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println(str);
-    }
+        private void sayHello(String str){
+            System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file.  a"
+                    + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+            System.out.println(str);
+        }
 
-    private void initializeVariables() {
-        String str = "Hello mates!";
-        System.out.println(str);
-        int variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + " year");
-        int age = 25;
-        System.out.println("I'm " + age);
-        int size = 42;
-        System.out.println("The size is " + size);
+        private void initializeVariables() {
+            String str = "Hello mates!";
+            System.out.println(str);
+            int variable = LocalDate.now().getYear();
+            System.out.println("It is " + variable + " year");
+            int age = 25;
+            System.out.println("I'm " + age);
+            int size = 42;
+            System.out.println("The size is " + size);
+        }
     }
 }
